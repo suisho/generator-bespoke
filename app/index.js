@@ -158,7 +158,8 @@ BespokeGenerator.prototype.setupPackageJson = function setupPackageJson() {
       'grunt-concurrent': '~0.3.0',
       'grunt-gh-pages': '~0.6.0',
       'connect-livereload': '~0.2.0',
-      'matchdep': '~0.3.0'
+      'matchdep': '~0.3.0',
+      'transformers': '~3.0.0'
     },
     'engines': {
       'node': '>=0.8.0'
