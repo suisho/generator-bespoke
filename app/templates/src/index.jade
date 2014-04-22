@@ -75,6 +75,7 @@ html
             a(href='http://twitter.com/markdalgleish')  -@markdalgleish
 
     // build:js scripts/scripts.js
+    script(src='scripts/polyfill.js')
 <% _.each(bowerComponentPaths, function(path) { %>    script(src='bower_components/<%= path %>')
 <% }) %>    script(src='scripts/main.js')
     // endbuild
